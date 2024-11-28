@@ -1,0 +1,32 @@
+.topkv {
+	--scroll-height: 3000px;
+	width: 100%;
+	height: calc( 100vh + var(--scroll-height) );
+	position: relative;
+}
+
+.scrollVideoFrame {
+	width: 357px;
+	height: 722px;
+	background-image: url(../assets/iphonese.jpg);
+    background-size: 357px 722px;
+    background-repeat: no-repeat;
+    margin: auto;
+    position: sticky;
+    top: 20px;
+}
+.frameInner {
+	width: 318px;
+	height: 554px;
+	position: absolute;
+	top: 84px;
+	left: 20px;
+}
+.scrollVideo {
+	width: 100%;
+	height: 100%;
+    object-fit: cover;
+	height: 100vh;
+	position: sticky;
+	top: 0;
+}
